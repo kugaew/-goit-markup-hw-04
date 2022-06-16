@@ -371,6 +371,31 @@ ul {
     display: block;
 }
 
+/*++++++++++++++++ client-main-page ++++++++++++++*/
+
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+
+.client-list-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-list-item:focus,
+.client-list-item:hover {
+    border: 1px solid #2196F3;
+}
+
+.client-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 /*=========================== FOOTER-all-pages ==========================*/
 
 .footer {
