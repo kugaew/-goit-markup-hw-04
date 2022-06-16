@@ -296,10 +296,14 @@ ul {
     margin-right: 30px;
 }
 
+.feature-list-item {
+    min-width: 270px;
+}
+
 .feature-list-title {
     margin-top: 0;
     margin-bottom: 10px;
-    min-width: 270px;
+    /* min-width: 270px; */
 
     color: var(--title-text-color);
 
@@ -391,7 +395,7 @@ ul {
 }
 
 .client-list-item {
-    width: 170px;
+    min-width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
