@@ -281,6 +281,17 @@ ul {
     display: flex;
 }
 
+.feature-list-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    
+    background-color: #F5F4FA;
+    
+}
+
 .feature-list-item:not(:last-child) {
     margin-right: 30px;
 }
