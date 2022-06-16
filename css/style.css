@@ -24,7 +24,7 @@
     
     --maim-background-color: #FFFFFF;
     --second-background-color: #F5F4FA;
-    --hero-background-color: #2F303A;
+    --hero-background-color: #C4C4C4;
     --footer-background-color: #2F303A;
 
     --header-border-bottom-color: #ECECEC;
@@ -193,10 +193,24 @@ ul {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: solid red 1px; */
+
+    height: 600px;
+    max-width: 1600px;
     
+    background-image: 
+        linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url('../images/hero_background.jpg');
     background-color: var(--hero-background-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
     text-align: center;
 }
+
 
 .hero-title {
     margin-top: 0;
