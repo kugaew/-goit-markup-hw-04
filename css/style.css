@@ -29,6 +29,8 @@
 
     --header-border-bottom-color: #ECECEC;
 
+    --feature-list-icon-background-color: #F5F4FA;
+
     --team-social-icon-color-passed: #AFB1B8;
     --team-social-icon-color-aktived: #FFFFFF;
     --team-social-icon-backgroundcolor-actived: #2196f3;
@@ -301,7 +303,21 @@ ul {
     display: flex;
 }
 
-.feature-list-item::before {
+.feature-list-container {  
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    background-color: #F5F4FA;
+}
+
+/*+++++ способ 2 иконка через before +++++++*/
+
+/* .feature-list-item::before {
     display: block;
     content: "";
     height: 120px;
@@ -317,6 +333,8 @@ ul {
     background-image: url(../images/features_01_details.svg);
 }
 
+
+
 .icon-time::before {
     background-image: url(../images/features_02_time.svg);
 }
@@ -327,8 +345,9 @@ ul {
 
 .icon-technology::before {
     background-image: url(../images/features_04_technology.svg);
-}
+} */
 
+/*+++++++++++++++++++++++++++++++++++++++++++*/
 
 .feature-list-item:not(:last-child) {
     margin-right: 30px;
