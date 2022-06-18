@@ -298,8 +298,26 @@ ul {
     border-radius: 4px;
     
     background-color: #F5F4FA;
-    
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+.icon-details::before {
+    background-image: url(../images/features_01_details.svg);
+}
+
+.icon-time::before {
+    background-image: url(../images/features_02_time.svg);
+}
+
+.icon-planing::before {
+    background-image: url(../images/features_03_planing.svg);
+}
+
+.icon-technology::before {
+    background-image: url(../images/features_04_technology.svg);
+}
+
 
 .feature-list-item:not(:last-child) {
     margin-right: 30px;
