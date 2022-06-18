@@ -190,6 +190,14 @@ ul {
 
 .contacts-nav-link {
     color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 .contacts-nav-link:hover,
