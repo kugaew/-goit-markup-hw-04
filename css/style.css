@@ -414,21 +414,29 @@ ul {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    color: var(--team-social-icon-color-passed); /*способ изменения цвета 1*/
+}
+
+.team-social-icon {
+    fill: currentColor; /*способ изменения цвета 1*/
 }
 
 .team-social-link:focus,
 .team-social-link:hover {
     background-color: var(--team-social-icon-backgroundcolor-actived);
+    color: var(--team-social-icon-color-aktived); /*способ изменения цвета 1*/
 }
 
-.team-social-icon {
+/*--------способ изменения цвета 2*-----/
+/* .team-social-icon {
     fill: var(--team-social-icon-color-passed);
 }
 
 .team-social-link:focus .team-social-icon,
 .team-social-link:hover .team-social-icon {
     fill: var(--team-social-icon-color-aktived);
-}
+} */
+/*---------------------------------------*/
 
 /*++++++++++++++++ client-main-page ++++++++++++++*/
 
