@@ -28,6 +28,10 @@
     --footer-background-color: #2F303A;
 
     --header-border-bottom-color: #ECECEC;
+
+    --team-social-icon-color-passed: #AFB1B8;
+    --team-social-icon-color-aktived: #FFFFFF;
+    --team-social-icon-backgroundcolor-actived: #2196f3;
 }
 
 /*=========================== Global =======================*/
@@ -410,9 +414,21 @@ ul {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    outline: 1px solid red;
 }
 
+.team-social-link:focus,
+.team-social-link:hover {
+    background-color: var(--team-social-icon-backgroundcolor-actived);
+}
+
+.team-social-icon {
+    fill: var(--team-social-icon-color-passed);
+}
+
+.team-social-link:focus .team-social-icon,
+.team-social-link:hover .team-social-icon {
+    fill: var(--team-social-icon-color-aktived);
+}
 
 /*++++++++++++++++ client-main-page ++++++++++++++*/
 
