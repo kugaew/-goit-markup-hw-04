@@ -34,6 +34,7 @@
     --team-social-icon-color-passed: #AFB1B8;
     --team-social-icon-color-aktived: #FFFFFF;
     --team-social-icon-backgroundcolor-actived: #2196f3;
+    --team-cards-background-color: #FFFFFF;
 
     --client-border-color-passer: #AFB1B8;
     --client-icon-color-passed: #AFB1B8;
@@ -416,6 +417,8 @@ ul {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 30px;
+
+    background-color: var(--team-cards-background-color);
 }
 
 .team-list-title {
